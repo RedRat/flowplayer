@@ -6,4 +6,4 @@
  * @author     Alexey Markov <redrat@mail.ru>
  */
 
-$lang['GetFlash'] = 'Вам необходимо установить <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> для просмотра этого видео!';
+$lang['GetFlash'] = 'Вам необходимо установить <a href="http://get.adobe.com/flashplayer/">Flash Player</a> для просмотра этого видео!';

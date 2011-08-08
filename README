@@ -1,11 +1,29 @@
-====== FlowPlayer Plugin for DokuWiki ======
+FlowPlayer Plugin for DokuWiki, version 0.3
 
-All documentation for the FlowPlayer Plugin is available online at:
+This plugin allows you to embed a flash video into your Wiki pages.
 
-  * http://dokuwiki.org/plugin:flowplayer
+All documentation for this plugin can be found at
+http://www.dokuwiki.org/plugin:flowplayer
 
+If you install this plugin manually, make sure it is installed in
+lib/plugins/flowplayer/ - if the folder is called different it
+will not work!
+
+Please refer to http://www.dokuwiki.org/plugins for additional info
+on how to install plugins in DokuWiki.
+
+----
 (c) 2008 by bSpot <blind@bspot.de>
 (c) 2008 - 2010 by Arno Welzel <himself@arnowelzel.de>
 (c) 2010 - 2011 by Alexey Markov <redrat@mail.ru>
 
-See COPYING for license info.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+See the COPYING file in your DokuWiki folder for details

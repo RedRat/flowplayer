@@ -6,4 +6,4 @@
  * @author     Alexey Markov <redrat@mail.ru>
  */
 
-$lang['GetFlash'] = 'You need to install a <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> to watch this video!';
+$lang['GetFlash'] = 'You need to install a <a href="http://get.adobe.com/flashplayer/">Flash Player</a> to watch this video!';
