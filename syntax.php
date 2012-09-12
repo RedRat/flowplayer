@@ -15,25 +15,13 @@
 
 if(!defined('DOKU_INC')) die();
 if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
-define('FLOWPLAYER', DOKU_BASE.'lib/plugins/flowplayer/player/flowplayer-3.2.7.swf');
+define('FLOWPLAYER', DOKU_BASE.'lib/plugins/flowplayer/player/flowplayer-3.2.15.swf');
 require_once(DOKU_PLUGIN.'syntax.php');
 
 class syntax_plugin_flowplayer extends DokuWiki_Syntax_Plugin {
 
-    function getInfo() {
-        return array(
-            'author' => 'Alexey Markov',
-            'email'  => 'redrat@mail.ru',
-            'date'   => '2010-08-08',
-            'version'=> '0.3',
-            'name'   => 'flowplayer',
-            'desc'   => 'Allows to embed a flash video into Wiki pages',
-            'url'    => 'http://wiki.splitbrain.org/plugin:flowplayer',
-            'ask'    => 'This plugin is based on the flowplay2 plugin by bspot and flashplayer plugin by Arno Welzel',
-        );
-    }
-
     function getType() { return 'substition'; }
+
     function getSort() { return 32; }
 
     function connectTo($mode) { $this->Lexer->addSpecialPattern('{{flowplayer>.*?}}',$mode,'plugin_flowplayer'); }
