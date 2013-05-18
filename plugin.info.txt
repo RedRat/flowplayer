@@ -1,7 +1,7 @@
 base   flowplayer
 author Alexey Markov
 email  redrat@mail.ru
-date   2012-09-12
+date   2013-05-18
 name   FlowPlayer Plugin
 desc   Allows to embed a flash video into Wiki pages.
 url    http://www.dokuwiki.org/plugin:flowplayer

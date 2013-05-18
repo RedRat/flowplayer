@@ -10,7 +10,7 @@
  *
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * @author     Alexey Markov <redrat@mail.ru>
- * @version    0.3
+ * @version    0.5
  */
 
 if(!defined('DOKU_INC')) die();
