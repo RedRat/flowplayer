@@ -15,7 +15,7 @@
 
 if(!defined('DOKU_INC')) die();
 if(!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
-define('FLOWPLAYER', DOKU_BASE.'lib/plugins/flowplayer/player/flowplayer-3.2.15.swf');
+define('FLOWPLAYER', DOKU_BASE.'lib/plugins/flowplayer/player/flowplayer-3.2.16.swf');
 require_once(DOKU_PLUGIN.'syntax.php');
 
 class syntax_plugin_flowplayer extends DokuWiki_Syntax_Plugin {
