@@ -26,7 +26,7 @@ class syntax_plugin_flowplayer extends DokuWiki_Syntax_Plugin {
 
     function connectTo($mode) { $this->Lexer->addSpecialPattern('{{flowplayer>.*?}}',$mode,'plugin_flowplayer'); }
 
-    function handle($match, $state, $pos, &$handler) {
+    function handle($match, $state, $pos, Doku_Handler $handler) {
         $width = 320;
         $height = 240;
         $params['scaling'] = '"fit"';
@@ -49,7 +49,7 @@ class syntax_plugin_flowplayer extends DokuWiki_Syntax_Plugin {
         return array('url' => $url, 'width' => $width, 'height' => $height, 'fid' => uniqid(), 'attr' => $params);
     }
 
-    function render($mode, &$renderer, $data) {
+    function render($mode, Doku_Renderer $renderer, $data) {
         if($mode == 'xhtml'){
             $renderer->doc .= '<object type="application/x-shockwave-flash"';
             $renderer->doc .= ' id="fp-'.$data['fid'].'"';
